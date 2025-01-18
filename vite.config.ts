@@ -8,6 +8,10 @@ export default defineConfig({
         outdir: "./src/lib/paraglide"
     })],
 
+    server: {
+   	 host: true,
+    },
+
     test: {
         include: ['src/**/*.{test,spec}.{js,ts}']
     }

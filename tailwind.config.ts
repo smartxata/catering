@@ -8,5 +8,5 @@ export default {
     extend: {}
   },
 
-  plugins: [typography]
+  plugins: [require("@tailwindcss/typography"), require("daisyui")],
 } satisfies Config;

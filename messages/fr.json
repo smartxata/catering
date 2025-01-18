@@ -1,4 +1,22 @@
 {
 	"$schema": "https://inlang.com/schema/inlang-message-format",
-	"hello_world": "Hello, {name} from fr!"
+	
+	"home": "Chez nous",
+	"about": "FRAbout",
+	"menu": "FRMenu",
+	"gallery": "FRGallery",
+	"contact": "Contact",
+
+
+	"catering":"Restauration",
+	"cat_slogan_top": "Like Home...",
+	"cat_slogan_foot": "...Just Better",
+
+ 
+	"paraglide_and_next_app_router": "ParaglideJS + SvelteKit",
+	"this_app_was_localised_with_paraglide": "This is a SvelteKit App that was localised using Paraglide-Next.",
+	"switch_languages_in_top_right": "You can switch languages in the top right corner.",
+	"learn_more_at_following_links": "Learn more at the following links",
+	"paraglide_documentation": "Paraglide Documentation",
+	"source_code": "Source Code"
 }
