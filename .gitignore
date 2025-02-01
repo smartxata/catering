@@ -8,6 +8,7 @@ node_modules
 .wrangler
 /.svelte-kit
 /build
+.vscode
 
 # OS
 .DS_Store
@@ -25,3 +26,8 @@ vite.config.ts.timestamp-*
 
 # Paraglide
 src/lib/paraglide
+project.inlang/*
+images_not_used/*
+
+# Docker related
+Dockerfile
