@@ -3,8 +3,9 @@
 	import { ParaglideJS } from "@inlang/paraglide-sveltekit";
 	import '../app.css';
 	let { children } = $props();
-	import Header from "$lib/ui/Header.svelte"
-	import Slogan from "$lib/components/Slogan.svelte";
+ 	import Slogan from "$lib/components/Slogan.svelte";
+
+	import Header from "$lib/ui/Header.svelte";
 
 </script>
   
