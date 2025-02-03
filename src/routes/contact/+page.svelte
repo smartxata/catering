@@ -18,9 +18,7 @@
     ​
     <div class="w-3/6 mt-4 rounded-sm p-8 bg-slate-100 ">
     <form class="my-4 " action="?/contactus" method= "POST">
-		{#if form?.missing}<p class="error">The email field is required</p>{/if}
-		{#if form?.empty}<p class="error">Name can't be empty!</p>{/if}
-	
+	 
      <div>
      <label class="label text-slate-500 mr-4" for="name">Name </label>
        <input type="text" name="name" placeholder="Type here" class="ring-1 ring-slate-200 focus:outline-none rounded-sm input w-full"  />
@@ -34,7 +32,13 @@
        <textarea class="textarea ring-1 ring-slate-200 focus:outline-none rounded-sm w-full" placeholder="Message"></textarea>
   </div>
     <button formaction="?/contactus">Submit</button>
-
+    {#if form?.error}
+    <ul class="notice-error">
+      {#each form.errors as error}
+        <li>{error.message}</li>
+      {/each}
+    </ul>
+  {/if}
     </form>
     </div>
     </div>
