@@ -6,18 +6,18 @@ import nodemailer from 'nodemailer';
    
 const transporter = nodemailer.createTransport({
     host: 'smtp.titan.email',
-    port: 587,
+    port: 0,
     secure: false,
     auth: {
-        user: 'reno@xata.ca',
-        pass: ')OKji90ok'
+        user: 'unknown',
+        pass: 'unknown'
     }
 });  
 
 
 const options = {
-    from: 'reno@xata.ca',
-    to: 'rent@popovych.ca',
+    from: 'unknown',
+    to: 'unknown',
     subject: 'hello Catering',
     html: "emailHtml"
 };
