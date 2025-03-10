@@ -1,0 +1,158 @@
+  
+.cat-box {
+  margin-top: 0.1px;
+  padding-top: 100px;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.12), 3px 4px 8px 0px rgba(0, 0, 0, 0.11);
+
+}
+   @font-face{
+    font-family: 'Carolina';
+          font-style: normal;
+          font-weight: 400;
+          src: local('Gelasio Regular'), local('Gelasio-Regular'), url(../lib/ui/Carolina.ttf) format('woff2');
+          unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+     
+   }
+   .catering{
+    font-family: Carolina;
+    font-size: 84px;
+   }
+  
+   .brand-slogan{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: goldenrod;
+   }
+  
+/*
+* @subsection   Brand
+*/
+.brand {
+  position: relative;
+  display: block;
+  margin-top: 212px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 270px;
+  width: 270px;
+}
+
+.brand:before {
+  content: '';
+  position: absolute;
+  top: -158px;
+  left: 28px;
+  width: 220px;
+  height: 114px;
+  border: 4px solid #56272d;
+  border-bottom: none;
+}
+
+.brand:after {
+  content: '';
+  position: absolute;
+  left: 28px;
+  top: 60%;
+  width: 220px;
+  height: 102px;
+  border: 4px solid #56272d;
+  border-top: none;
+}
+
+@media (min-width: 992px) {
+  .brand {
+    margin-top: 248px;
+    margin-left: -20px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .brand {
+    margin-top: 332px;
+  }
+}
+
+.brand-name {
+  position: relative;
+  font-size: 72px;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  color: #56272d;
+}
+
+.brand-name:before {
+  position: absolute;
+  left: 29px;
+  top: -110px;
+  content: '';
+  display: block;
+  width: 219px;
+  height: 91px;
+  padding-top: 150px;
+  
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+   .cate{
+    padding-left: 150px;
+   }
+  
+     #multi-bg{
+        height: 300px;
+        display: block;
+        background-color: #808;
+        background-image:
+           url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23740074' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%235f005f' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%234b004b' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23360036' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23220022' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom center, 50%, 50%;
+     }
+
+
+.lshift {
+    margin-left: 20px;
+}
+.rshift {
+    margin-right: 20px;
+}
+
+
+
+/* 
+  Ref:: About page
+  Description: {TODO}
+
+**/
+ 
+.container {
+  position: relative;
+}
+
+.item {
+  width: 650px;
+  height: 150px;
+ }
+
+.item1 {
+  margin-top: 10px;
+  color: #EEEEEE;
+  font-family: Geneva;  
+  font-stretch: 350%;
+}
+
+.item2 {
+  color: gray;
+  top: 20px;
+  left: 40px;
+  position: absolute;
+  font-width: condensed;
+
+ }
+
+ h2 {
+  font-family: fantasy;
+  font-size: 34px;
+  color: gray;
+ }
