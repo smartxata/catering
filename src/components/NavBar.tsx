@@ -167,7 +167,7 @@ export default function NavbarDefault() {
 
   return (
     <Navbar
-      className="mt-1 mx-auto max-w-screen-xl px-4 py-2 lg:px-8 lg:py-4 shadow-xl shadow-blue-gray-900/5"
+      className="mt-1 mx-auto max-w-screen-xl px-4 py-2 lg:px-8 lg:py-4 shadow-xl shadow-blue-gray-900/5 border-white"
       placeholder={undefined}
       onPointerEnterCapture={undefined}
       onPointerLeaveCapture={undefined}

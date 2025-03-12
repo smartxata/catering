@@ -89,10 +89,7 @@ const {t,  i18n} = useTranslation();
                    <NavbarDefault /> 
                </div>
  
-               <div><Card className="h-[calc(10vh-2rem)] w-full max-w-[20rem] p-4 shadow-xl shadow-blue-gray-900/5" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
-                   
-                 <Slogan value={t("catering").toUpperCase()}/> 
-               </Card>
+               <div className="mt-5">
                </div>
          </div>
         
