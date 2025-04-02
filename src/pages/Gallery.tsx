@@ -34,7 +34,7 @@ export default function Gallery() {
                 
         <div>
         <Card className="h-[calc(100vh-2rem)] w-full max-w-[100rem] p-4 shadow-xl shadow-blue-gray-900/5" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
-             <div className="grid h-100 grid-cols-3 content-stretch gap-4 ">
+             <div className="md:grid h-100 md:grid-cols-3 content-stretch gap-4 ">
                     <div className=" p-4 shadow-xl shadow-blue-gray-900/5">
                     <figure className="relative h-96 w-full">
                             <img

@@ -35,7 +35,7 @@ const bgHome = {
                 
         <div>
         <Card className="h-[calc(100vh-2rem)] w-full max-w-[100rem] p-4 shadow-xl shadow-blue-gray-900/5" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
-             <div className="grid h-226 grid-cols-2 content-stretch gap-1 " >
+             <div className="md:grid h-226 grid-cols-2 content-stretch gap-1 " >
                <div className=" p-4 w-75" >
               
                   <Square title="Catering!" supSlogan="Like Home..." subSlogan="... just better"/>

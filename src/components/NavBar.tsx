@@ -2,7 +2,7 @@ import React from "react";
 import {
   Navbar,
   Typography,
-  // Button,
+  MobileNav,
   IconButton,
 } from "@material-tailwind/react";
 import { Link } from "react-router";
@@ -16,8 +16,7 @@ export default function NavbarDefault() {
   //   ua: { nativeName: "Ukrainian" },
   //   fr: { nativeName: "French" },
   // };
-
-  // const {t,  i18n} = useTranslation();
+ 
   const { t } = useTranslation();
 
   React.useEffect(() => {
@@ -167,7 +166,7 @@ export default function NavbarDefault() {
 
   return (
     <Navbar
-      className="mt-1 mx-auto max-w-screen-xl px-4 py-2 lg:px-8 lg:py-4 shadow-xl shadow-blue-gray-900/5 border-white"
+      className="mt-4 mx-auto max-w-screen-xl px-4 py-2 lg:px-8 lg:py-4 shadow-xl shadow-blue-gray-900/5 border-white"
       placeholder={undefined}
       onPointerEnterCapture={undefined}
       onPointerLeaveCapture={undefined}
@@ -227,6 +226,12 @@ export default function NavbarDefault() {
           )}
         </IconButton>
       </div>
+      <MobileNav open={openNav}>
+        <div className="container mx-auto">
+          {navList}
+        
+        </div>
+      </MobileNav>
     </Navbar>
   );
 }

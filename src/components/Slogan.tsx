@@ -1,18 +1,22 @@
-  
-  export default function ModelDetails( props: any) {
+
+
+export default function Slogan( ) {
         
     return (
+                             
  
-               
-                    <div className='ml-5'>
-                        <div className="ml-9 mt-1 rounded-full w-25">
-                            <h2 style={{fontSize: "250%", fontStretch: "revert", fontFamily: "Raleway, sans-serif", color: "#FFFFFF", textShadow: "-2px 2px 4px rgba(9, 9, 9, 0.5), 2px -2px 0 rgba(255, 255, 255, 0.9)"}} >
-                              {props.value}</h2>
-                        </div>
-                    </div>  
-               
- 
+<blockquote className="text-center text-2xl  font-semibold text-gray-900 italic dark:text-white slogan">
+    <span className="pr-4">
+            A social enterprise powered by the
+    </span>
+
+  <span className="relative inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-blue-500">
+    <span className="relative text-yellow-300 dark:text-yellow-300"> spirit and soul </span>
+  </span>
+  <span className="pl-4">
+  of Ukraine.
+
+    </span>
+</blockquote>
             );
  }
-
- 

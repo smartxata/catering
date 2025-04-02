@@ -7,7 +7,7 @@
  
                
                        
-          <div className="col-md-3 catBox">
+          <div className="col-md-3 cat-box">
                       <a href="#" className="brand">
 
               <div className="catering" >

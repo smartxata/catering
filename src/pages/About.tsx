@@ -37,19 +37,19 @@ export default function About() {
                 </div>
                 
         <div>
-        <Card className="h-[calc(100vh-2rem)] w-full max-w-[100rem] p-4 shadow-xl shadow-blue-gray-900/5" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+        <Card className="h-[calc(110vh-2rem)] w-full max-w-[100rem] p-4 shadow-xl shadow-blue-gray-900/5" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
 <h2>
 
-        <div className="container">
-  <div className="item item1">A b o u t     U s </div>
-  <div className="item item2">Who We are</div>
-</div>
+        <div className="container w-[calc(100vw-2rem)] h-[calc(20vh-7rem)] ">
+            <div className="item item1 ">A b o u t     U s </div>
+            <div className="item item2 ">Who We are</div>
+        </div>
 </h2>
 
         
  
 
-        <div className="grid h-226 grid-cols-1 content-stretch gap-4 ">
+        <div className="md:grid h-[calc(100vh-2rem)]  grid-cols-1 content-stretch gap-4 ">
                
                <div className=" p-4 shadow-xl shadow-gray-400/5">
                
@@ -58,7 +58,7 @@ export default function About() {
                 </h2>
                 <div  className=" shadow-xl shadow-gray-400/5 flex items-stretch" >
                   <div className=" w-150 ">                <img src={i4} className="h-56 w-56 rounded-2xl object-cover justify-center"/>                  </div>
-                  <div className="pl-8 text-2xl content-evenly">
+                  <div className="pl-8 text-2xl content-evenly chooseus">
 When visiting our European restaurant, just brace yourself to immersing into enjoying a truly delicious and perfectly cooked dishes.
 The world-renowned chef showcases exhilarating interpretations of European food in a breathtaking space architect Tadao Ando built as a respite from the non-stop chaos of New York City.</div>
                 </div>
@@ -70,7 +70,7 @@ The world-renowned chef showcases exhilarating interpretations of European food 
 
                 <div  className=" shadow-xl shadow-gray-400/5 flex items-stretch" >
                   <div className=" w-150 ">                <img src={i5} className="h-56 w-56 rounded-2xl object-cover justify-center"/>                  </div>
-                  <div className="pl-8 text-2xl content-evenly">
+                  <div className="pl-8 text-2xl content-evenly chooseus">
                   We welcome every person to visit our restaurant! Everyone can find its perfect table and try incredible dish from our chef! We work for people to deliver great mood, create cozy atmosphere and make your time awesome and fun! Delivering the best service is our core value, as people come to us to have a rest, and we’re providing their perfect residence.
                   </div>
                   </div>
